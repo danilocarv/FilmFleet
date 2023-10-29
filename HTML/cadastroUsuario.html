@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FilmFleet</title>
+    <link rel="stylesheet" href="../CSS/cadastro.css">
+    <link rel="shortcut icon" href="../CSS/Images_gifs/FilmFleet.png" type="image/x-icon">
+</head>
+<body class="pag_cadastro">
+    <header>
+        <div id="Logo"><img src="../CSS/Images_gifs/FilmFleet.png" alt="Logo FilmFleet"></div>
+    </header>
+    <main class="pag_cadastro">
+        <h1>Cadastro: </h1>
+        <br>
+        <form>
+            <p>
+                <label for="name"><b>Nome:</b></label>
+                <input type="text" id="name" class="inputUser">
+            </p>
+            <p>
+                <label for="endereco"><b>Endereço:</b></label>
+                <input type="text" id="endereco" class="inputUser">
+            </p>
+            <p>
+                <label for="email"><b>E-mail:</b></label>
+                <input type="text" id="email" class="inputUser">
+            </p>
+            <p>
+                <label for="cidade"><b>Cidade:</b></label>
+                <input type="text" id="cidade" class="inputUser">
+            </p>
+            <p>
+                <label for="estado"><b>Estado:</b></label>
+                <select name="estado">
+                    <option value="AC">Acre</option>
+                    <option value="AL">Alagoas</option>
+                    <option value="AP">Amapá</option>
+                    <option value="AM">Amazonas</option>
+                    <option value="BA">Bahia</option>
+                    <option value="CE">Ceará</option>
+                    <option value="DF">Distrito Federal</option>
+                    <option value="ES">Espírito Santo</option>
+                    <option value="GO">Goiás</option>
+                    <option value="MA">Maranhão</option>
+                    <option value="MT">Mato Grosso</option>
+                    <option value="MS">Mato Grosso do Sul</option>
+                    <option value="MG">Minas Gerais</option>
+                    <option value="PA">Pará</option>
+                    <option value="PB">Paraíba</option>
+                    <option value="PR">Paraná</option>
+                    <option value="PE">Pernambuco</option>
+                    <option value="PI">Piauí</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="RN">Rio Grande do Norte</option>
+                    <option value="RS">Rio Grande do Sul</option>
+                    <option value="RO">Rondônia</option>
+                    <option value="RR">Roraima</option>
+                    <option value="SC">Santa Catarina</option>
+                    <option value="SP">São Paulo</option>
+                    <option value="SE">Sergipe</option>
+                    <option value="TO">Tocantins</option>
+                </select>
+            </p>
+                <p>
+                    <span><b>Sexo:</b></span>
+                    <label for="_sexo_masculino">Masculino</label>
+                    <input type="radio" name="_sexo" id="_sexo_masculino" value="sexo">
+                    <br>
+                    <label for="_sexo_feminino" style="margin-left: 50px;">Feminino</label>
+                    <input type="radio" name="_sexo" id="_sexo_feminino" value="sexo">
+                </p>
+            
+                <p>
+                    <p><b>Filmes que você mais gosta:</b></p>
+                    <label for="filme_de_acao">Ação</label>
+                    <input type="checkbox" name="filme_de_acao">
+                    <br>
+                    <label for="aventura">Aventura</label>
+                    <input type="checkbox" name="filme_de_aventura" id="aventura">
+                    <br>
+                    <label for="filme_de_comedia">Comédia</label>
+                    <input type="checkbox" name="filme_de_comedia" id="filme_de_comedia">
+                    <br>
+                    <label for="filme_de_suspense">Suspense</label>
+                    <input type="checkbox" name="filme_de_suspense" id="filme_de_suspense">
+                    <br>
+                    <label for="filme_de_drama">Drama</label>
+                    <input type="checkbox" name="filme_de_drama" id="filme_de_drama">
+                    <br>
+                    <label for="filme_de_romance">Romance</label>
+                    <input type="checkbox" name="filme_de_romance" id="filme_de_romance">
+                    <br>
+                    <label for="filme_de_terror">Terror</label>
+                    <input type="checkbox" name="filme_de_terror" id="filme_de_terror">
+                </p>
+
+                <p>
+                    <label for="cadastro_user"><strong>Usuario:</strong></label>
+                    <input type="text" id="cadastro_user" name="cadastro_user" class="inputUser">
+                </p>
+                <p>
+                    <label for="cadastro_senha"><strong>Senha:</strong></label>
+                    <input type="text" id="cadastro_senha" class="inputUser">
+                </p>
+                    <br>
+                <button>Cancelar</button>
+                <button>Limpar</button>
+                <button>Cadastrar</button>
+        </form>
+        <br>
+        <a href="index.html" style="margin-left: 120px;">Voltar</a>
+    </main>
+</body>
+</html>

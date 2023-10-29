@@ -1,0 +1,13 @@
+Fonts{
+    1º josefins Sans
+    2º Rajdhani
+}
+
+color{
+    
+    cinza cor de fundo #22252A
+    cinza cor auxiliar #2D3035
+    preto cor auxiliar #000000
+    amarelo Logo e auxiliar #FDBA12
+    Branco #FFFFFF
+}

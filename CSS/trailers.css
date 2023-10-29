@@ -1,0 +1,86 @@
+@charset "utf-8";
+
+@font-face{
+    font-family: 'sans';
+    src: url('Fonts/OpenSans-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+:root{
+    /* Color */
+    --Amarelo-cor-logo:  #FDBA12;
+    --Cinza-cor-fundo:  #22252A;
+    --Cinza-cor-auxiliar:  #2D3035;
+    --preto-auxiliar:  #000000;
+    --branco:  #FFFFFF;
+
+    
+}
+
+main#trailer_pag{
+    width: 900px;
+    background-color: rgb(220, 220, 220);
+    margin: auto;
+
+    border-radius: 10px 10px 0px 0px;
+    padding-bottom: 10px;
+}
+
+#trailer_pag > ul{
+    background-color: #000000;
+    list-style: none;
+    display: flex;
+
+    height: 60px;
+    place-items: center;
+}
+
+#trailer_pag > ul > li{
+    justify-content: space-between;
+}
+
+#trailer_pag > ul > li > a{
+    text-decoration: none;
+    color: rgb(220, 220, 220);
+    font-size: 1.3em;
+
+    margin-left: 19px;
+    margin-right: 20px;
+    padding: 15px;
+
+}
+#trailer_pag > ul > li > a:hover{
+    background-color: #22252A;
+
+}
+
+#trailer_pag h1{
+    margin: 10px 10px 0px 240px;
+    padding: 10px;
+    font-size: 3.0em;
+}  
+
+#trailer_pag > .trailer_filme{
+    background-color: black;
+    border-radius: 10px;
+    width: 700px;
+
+    padding: 20px;
+    margin: 10px 10px 0px 80px;
+    
+}
+
+#trailer_pag > .trailer_filme > h2{
+    padding: 10px;
+    color: rgb(220, 220, 220);
+}
+
+#trailer_pag> .trailer_filme > iframe
+{
+    margin-left: 65px;
+    border: 1px solid rgb(220, 220, 220);
+}
+footer{
+    height: 60px;
+    width: 800px;
+}
